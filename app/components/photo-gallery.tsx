@@ -65,6 +65,7 @@ export default function photoGallery({ images, setImages }: photoGalleryProps) {
               src={item.attributes.thumbnail_url}
               alt={item.attributes.description}
               className="rounded-lg select-none"
+              draggable="false"
               loading="lazy"
             />
 
