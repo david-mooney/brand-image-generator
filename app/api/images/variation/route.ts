@@ -23,7 +23,7 @@ export async function POST(req: Request) {
 
     const res = await openAI.createImageVariation(
       file,
-      4, // sets the numberof images to generate
+      3, // sets the numberof images to generate
       "512x512", // Default value = 1024x1024
     )
 
